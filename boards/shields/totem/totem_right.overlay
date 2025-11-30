@@ -11,6 +11,7 @@
 };
 
 &kscan0 {
+    compatible = "zmk,kscan-gpio-matrix";
     row-gpios
         = <&xiao_d 0 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
         , <&xiao_d 1 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
