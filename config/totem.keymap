@@ -23,7 +23,7 @@
 
 &mt {
     quick-tap-ms = <100>;
-    global-quick-tap;
+	require-prior-idle-ms = <125>;
     flavor = "tap-preferred";
     tapping-term-ms = <170>;
 };
@@ -80,7 +80,7 @@
 
     macros {
         gif: gif {
-            label = "giphy";
+            display-name = "giphy";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
@@ -98,7 +98,7 @@
     behaviors {
         hm: hm {
             compatible = "zmk,behavior-hold-tap";
-            label = "HM";
+            display-name = "HM";
             bindings = <&none>, <&none>;
 
             #binding-cells = <2>;
