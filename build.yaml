@@ -11,5 +11,5 @@ include:
     snippet: studio-rpc-usb-uart
     artifact-name: totem_central
   - board: nice_nano_v2
-    shield: nicenano_settings_reset
+    shield: settings_reset 
 # there is no settingsreset (needed) for the XIAO
