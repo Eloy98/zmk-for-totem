@@ -9,6 +9,7 @@
 / {
     chosen {
         zmk,kscan = &mock_kscan;
+    	compatible = "zmk,kscan-gpio-matrix";
     };
 
     mock_kscan: mock_kscan_0 {
