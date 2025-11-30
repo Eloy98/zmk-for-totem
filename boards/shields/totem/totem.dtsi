@@ -34,7 +34,8 @@
     };
 
 
-    kscan0: kscan_0 { 
-        diode-direction = "col2row"; 
+    kscan0: kscan {
+        wakeup-source;
+        diode-direction = "col2row";
     };
 };
