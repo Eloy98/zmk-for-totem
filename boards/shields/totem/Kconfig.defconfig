@@ -53,6 +53,8 @@ endchoice
 
 endif
 
+endif
+
 if SHIELD_TOTEM_CENTRAL||SHIELD_TOTEM_LEFT || SHIELD_TOTEM_RIGHT
 
 config ZMK_SPLIT
