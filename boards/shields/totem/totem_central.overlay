@@ -9,7 +9,7 @@
 / {
     chosen {
         zmk,kscan = &mock_kscan;
-    	compatible = "zmk,kscan-gpio-matrix";
+        zmk,physical-layout = &physical_layout0;
     };
 
     mock_kscan: mock_kscan_0 {
