@@ -7,6 +7,8 @@ requires: [seeeduino_xiao_ble]
 features:
   - keys
   - studio
+  - dongle
 siblings:
-  - totem_left
-  - totem_right
+  - totem_dongle_C
+  - totem_dongle_L
+  - totem_dongle_R

@@ -1,0 +1,11 @@
+# Copyright (c) 2022 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+config SHIELD_TOTEM_DONGLE_C
+    def_bool $(shields_list_contains,totem_dongle_C)
+
+config SHIELD_TOTEM_DONGLE_L
+    def_bool $(shields_list_contains,totem_dongle_L)
+    
+config SHIELD_TOTEM_DONGLE_R
+    def_bool $(shields_list_contains,totem_dongle_R)
