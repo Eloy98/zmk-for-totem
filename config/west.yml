@@ -7,10 +7,10 @@ manifest:
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: main
+      revision: v0.3
       import: app/west.yml
     - name: zmk-rgbled-widget  # <-- new entry
       remote: caksoylar
-      revision: main     
+      revision: v0.3     
   self:
     path: config
